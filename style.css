@@ -1,0 +1,60 @@
+body {
+    font-family: 'Croissant One', cursive;
+    font-size: 15px;
+    background-color: #2a459cb1;
+  }
+  
+  header {
+    background-color: #717bba;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+  }
+  
+  main {
+    margin: 20px;
+    background-color: #717bba;
+    padding: 20px;
+    box-shadow: 0px 0px 50px rgb(165, 180, 235);
+  }
+  .info-container {
+    float: left;
+    width: 65%; 
+  }
+  
+  .image-container {
+    float: right;
+    width: 30%; 
+    border: 3px solid black;
+  }
+  
+  .character-info img {
+    max-width: 100%;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid #86b7f9b0;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  blockquote {
+    font-style: italic;
+    margin: 10px 0;
+  }
